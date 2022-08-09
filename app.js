@@ -19,7 +19,7 @@ app.post("/",function(req,res){
         members:[{
             email_address:email,
             status:"subscribed",
-            Merge_fields:{
+            merge_fields:{
                 FNAME:first,
                 LNAME:last
             }
