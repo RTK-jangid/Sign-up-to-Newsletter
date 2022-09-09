@@ -10,6 +10,7 @@ app.get("/",function(req,res){
     res.sendFile(__dirname+"/index.html");
     
 });
+// here 
 app.post("/",function(req,res){
     var first=req.body.fname;
     var last=req.body.lname;
